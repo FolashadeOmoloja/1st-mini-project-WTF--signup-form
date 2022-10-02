@@ -95,8 +95,9 @@ input[type='password']::placeholder {
 }
 
 .input i{
-    position: relative;
-    right:40px;
+    /* position: relative;
+    right:40px; */
+    margin-left: -40px;
     color: #17183B;
     cursor: pointer;
 }
