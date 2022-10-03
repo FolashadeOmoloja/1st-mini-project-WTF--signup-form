@@ -12,6 +12,7 @@
 }
 body{
     background: linear-gradient(90deg, hsla(229, 52%, 96%, 1) 0%, hsla(226, 24%, 78%, 1) 53%, hsla(225, 21%, 63%, 1) 99%);
+    min-height: 100%;
 }
 
 .main-body{
@@ -222,21 +223,35 @@ input[type=checkbox] {
   }
 
 @media screen and (max-width: 420px) {
+    body{
+        background:  #8d97b4;
+    }
     .main-body{
         display: block;
+        width: 420px;
+        border-radius: 0;
+          
+        
     }
+
+ 
     .second-section{
         display: none;
     }
 
     .first-section {
-        padding-left: 30%;
+        width: 100%;
+        height: 100%;
+        display: block;
+        padding-left: 10%;
         padding-bottom: 50px;
+        border-radius: 0;
     }
 
 
 }
 @media (min-width: 420px) and (max-width: 1603px) {
+    
     .first-section {
         
         padding-bottom: 70px;
